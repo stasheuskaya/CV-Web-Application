@@ -1,0 +1,25 @@
+.innerPage {
+    display: flex;
+    width: 100vw;
+    font-size: 25px;
+    min-height: 750px;
+  }
+
+  .innerPage, .innerPage > * {
+    height: 100vh;
+  }
+
+  .innerContent {
+    display: block;
+    text-align: start;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--main-text-and-bg-color-oxford-blue);
+    flex-grow: 1;
+    width: 50%;
+  }
+  
+  .innerContent.compact {
+    width: 90%;
+  }

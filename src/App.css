@@ -1,0 +1,19 @@
+
+.App {
+  text-align: center;
+  font-family: var(--main-family-font);
+  font-style: normal;
+  min-width: 400px;
+}
+
+html h1 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+html h2 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}

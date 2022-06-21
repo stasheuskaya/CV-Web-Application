@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Feedback Page renders content 1`] = `
+<div>
+  <div
+    className="feedbackContainer"
+  >
+    <blockquote
+      className="feedback"
+    >
+      <div
+        className="infoBox"
+      >
+        "Yulia is an incredibly talented, hard-working individual. I would recommend her to work in any area she pursues. She volunteered under me and also worked for a school I was on the board for. In both circumstances, paid and unpaid, she was dedicated, faithful, consistent, honest, kind, loving, full of good ideas, took initiative, and easy to work with."
+      </div>
+    </blockquote>
+    <div
+      className="feedbackInfo"
+    >
+      <div
+        className="feedbackName"
+      >
+        Allyse Tanovitz, YVCS School board member
+        , 
+        <a
+          href="https://yvcschool.org"
+        >
+          https://yvcschool.org
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="feedbackContainer"
+  >
+    <blockquote
+      className="feedback"
+    >
+      <div
+        className="infoBox"
+      >
+        "Yuliya was a valuable member of our team, and her job and attitude helped us to finish project successfully. Yuliya proved herself not only as a good QA engineer, but also as a consistent and reliable person, it was easy and comfortable to work with Yuliya."
+      </div>
+    </blockquote>
+    <div
+      className="feedbackInfo"
+    >
+      <div
+        className="feedbackName"
+      >
+        Marina Tretjakova, QA Test Lead, EPAM Systems
+        , 
+        <a
+          href="www.epam.com"
+        >
+          www.epam.com
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

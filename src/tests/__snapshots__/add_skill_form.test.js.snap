@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddSkillForm Page renders content 1`] = `
+<div
+  className="addSkillForm"
+>
+  <form
+    action="#"
+    onReset={[Function]}
+    onSubmit={[Function]}
+  >
+    <div
+      className="skillName"
+    >
+      <h2>
+        <label
+          htmlFor="skillName"
+        >
+          Skill Name
+        </label>
+      </h2>
+      <input
+        className=""
+        id="skillName"
+        name="skillName"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Enter skill name"
+        value=""
+      />
+    </div>
+    <div
+      className="inputErrorMessage"
+    />
+    <div
+      className="skillRange"
+    >
+      <h2>
+        <label
+          htmlFor="skillRange"
+        >
+          Skill range
+        </label>
+      </h2>
+      <input
+        className=""
+        id="skillRange"
+        name="skillRange"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Enter skill range"
+        value=""
+      />
+    </div>
+    <div
+      className="inputErrorMessage"
+    />
+    <div
+      className="addSkillButton"
+    >
+      <button
+        disabled={false}
+        type="submit"
+      >
+        Add Skill
+      </button>
+    </div>
+  </form>
+</div>
+`;

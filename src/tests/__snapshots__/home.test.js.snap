@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Page renders content 1`] = `
+<div
+  className="startScreen"
+>
+  <div>
+    <div
+      className="photoBox"
+    >
+      <div
+        className="userImage"
+      >
+        <img
+          alt="userAvatar"
+          className="userAvatar"
+          src="userAvatar.png"
+        />
+      </div>
+      <h1
+        className="userName"
+        name="Yuliya Stasheuskaya"
+      >
+        Yuliya Stasheuskaya
+      </h1>
+      <h2
+        className="userSummary"
+      >
+        Programmer. Creative. Innovator
+      </h2>
+      <div
+        className="userDescription"
+        style={
+          Object {
+            "whiteSpace": "pre-line",
+          }
+        }
+      >
+        Web developer with 6 months of experience in designing websites. 
+ Recognized for leadership, collaborative abilities when working in team settings.
+      </div>
+    </div>
+    <button
+      className="startButton"
+      onClick={[Function]}
+    >
+      <div
+        className="icon"
+      />
+      Know more
+    </button>
+  </div>
+</div>
+`;

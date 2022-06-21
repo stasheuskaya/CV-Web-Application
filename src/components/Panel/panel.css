@@ -1,0 +1,27 @@
+.userImageSideBar.compact {
+    width: 40px;
+    height: 40px;  
+  }
+  
+  .panelPhotoBox {
+    padding-top: 20px;
+    height: 255px;
+  }
+  
+  .panelPhotoBox .userName {
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+  
+  .panelLinks {
+    display: flex;
+    height: 60px;
+    padding-left: 20px;
+    color: var(--dark-grey-color-links-raven);
+    background-color: var(--main-text-and-bg-color-oxford-blue);
+    font-weight: 400;
+    font-size: 16px;
+    align-items: center;
+  }

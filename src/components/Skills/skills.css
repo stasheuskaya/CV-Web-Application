@@ -1,0 +1,96 @@
+.inputErrorMessage {
+    color: var(--red-error-color);
+    margin-left: 20px;
+}
+
+.skills {
+    position: relative;
+  }
+  
+  .skillsEditButton {
+    position: absolute;
+    right: 40px;
+    top: -75px;
+    width: 140px;
+    height: 40px;
+  }
+  
+  .addSkillForm {
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--green-color-highlight-shamrock);
+    border-radius: 5px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+  }
+    
+  .skillName, .skillRange {
+    display: flex;
+    margin-left: 20px;
+    padding-top: 30px;
+    align-items: center;
+  }
+  
+  .skillName input, .skillRange input {
+    height: 30px;
+    width:250px;
+    font-size: 12px;
+    margin-left: 20px;
+  }
+  
+  .errBorder {
+    border-color: var(--red-error-color);
+  }
+  
+  .skillTable, .skillsLine, .skillsLine th {
+    border: 1px solid var(--dark-grey-color-links-raven);
+    border-top: none;
+  }
+  
+  .skillTable {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  .skillsLine th {
+    height: 10px;
+  }
+  
+  .skillBar {
+    height: 30px;
+    background-color: var(--green-color-highlight-shamrock);
+    color: var(--main-text-color-white);
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 2px;
+  }
+  
+  .skillsLineText {
+    display: flex;
+    padding-top: 10px;
+    color: var(--dark-grey-color-links-raven);
+    height: 30px;
+  }
+  
+  .skillsLineText.center {
+    position: relative;
+    top: -40px;
+  }
+  
+  .beginnerSkill, .proficientSkill, .expertSkill, .masterSkill {
+    width: 50%;
+  }
+  
+  .beginnerSkill {
+    text-align: start;
+  }
+  
+  .masterSkill {
+    text-align: end;
+  }
+  
+  .proficientSkill, .expertSkill {
+    text-align: center;
+  }
+  

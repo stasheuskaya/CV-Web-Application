@@ -1,0 +1,63 @@
+.timeLine {
+  display: flex;
+  height: fit-content;
+}
+
+.timeLineData {
+  overflow: scroll;
+  height: 350px;
+}
+
+.timeLineData.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textContent {  
+  background: var(--light-grey-color-gallery);
+  margin-bottom: 10px;
+  padding-top: 9px;
+  padding-left: 10px;
+  width:100%;
+  position: relative;
+  display: inline-block;
+}
+
+.textContent:before {
+background: var(--main-text-color-white);
+content: "";
+position: absolute;
+top: 12%;                         
+margin-top: -6px;                
+left:-20px;
+border: solid 10px transparent;
+border-right-color:var(--light-grey-color-gallery);
+z-index: 1;
+}
+
+.dateContent {
+display: inline-block;
+padding-right: 40px;
+padding-bottom: 5px;
+padding-top: 8px;
+}
+
+.vertRuler {
+box-sizing:content-box;
+Width: 5px;
+Height: 100px;
+background: var(--green-color-highlight-shamrock);
+position: relative;
+max-width: 500px;
+margin: 0 auto;
+}
+
+.educationText {
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+
+ .educationTitle, .educationDate {
+  padding-bottom: 5px;
+}

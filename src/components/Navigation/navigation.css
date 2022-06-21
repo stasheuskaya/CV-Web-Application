@@ -1,0 +1,36 @@
+.navigationPanel, .navigationPanel > .navigationPanel__fixed {
+    width: 250px;
+  }
+  
+  .navigationPanel.compact, .navigationPanel.compact > .navigationPanel__fixed {
+    width: 54px;
+  }
+  
+  .navigationPanel.hidden, .navigationPanel.hidden > .navigationPanel__fixed {
+    width: 0px;
+  }
+  
+  .navigationPanel.hidden > .navigationPanel__fixed > *:not(.menuButton.hidden) {
+    display: none;
+  }
+  
+  .navigationPanel, .navigationPanel__fixed, .navBackButton {
+    background-color: var(--main-text-and-bg-color-oxford-blue);
+    color:var(--main-text-color-white);
+  }
+  
+  .navigationPanel__fixed {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    height: 100vh;
+  }
+  
+  .panelLinks:hover, .navBackButton:hover{
+    color: var(--green-color-highlight-shamrock);
+    font-weight: 600;
+  }
+
+  a.panelLinks.active {
+    color: var(--green-color-highlight-shamrock);
+  }

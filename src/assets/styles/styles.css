@@ -1,0 +1,18 @@
+:root {
+    --main-text-and-bg-color-oxford-blue: #222935;
+    --green-color-highlight-shamrock: #26C17E;
+    --light-grey-color-gallery: #EEE;
+    --dark-grey-color-links-raven: #667081;
+    --main-text-color-white: #fff;
+    --black-color: #000;
+    --grey-color-alto: #DDD;
+    --black-color-midnight: #000614;
+    --main-family-font: 'Open Sans';
+    --red-error-color: #ff0000;
+    --font-size-header: 16px;
+    --font-size-text: 14px;
+    --font-weight-header:700px;
+    --font-weight-text:400px;
+    --font-line-height-header: 120%;
+    --font-line-height-text: 150%;
+}

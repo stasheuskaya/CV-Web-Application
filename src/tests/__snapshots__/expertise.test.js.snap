@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimeLine Page renders content 1`] = `
+<div>
+  <table
+    className="expertiseContainer"
+  >
+    <tr>
+      <th
+        className="expertiseCompany"
+      >
+        EPAM Systems inc
+      </th>
+      <th
+        className="expertiseJob"
+      >
+        FrontEnd Developer/Engineer
+      </th>
+    </tr>
+    <tr>
+      <th
+        className="expertiseDate"
+      >
+        2021-2022
+      </th>
+      <th
+        className="expertiseDescription"
+      >
+        Develop various web application, including the a Capstone project "CV Web application".  CV web application is a personal, professional CV web application that allows users to have a working prototype to share with audiences to introduce themselves.
+      </th>
+    </tr>
+  </table>
+  <table
+    className="expertiseContainer"
+  >
+    <tr>
+      <th
+        className="expertiseCompany"
+      >
+        Selfemployee
+      </th>
+      <th
+        className="expertiseJob"
+      >
+        Mobile Software Testing Engineer  / QA
+      </th>
+    </tr>
+    <tr>
+      <th
+        className="expertiseDate"
+      >
+        2019-2021
+      </th>
+      <th
+        className="expertiseDescription"
+      >
+        MyBudget mobile application (iOS). Set a budget and keep it with real time budget stats.
+      </th>
+    </tr>
+  </table>
+  <table
+    className="expertiseContainer"
+  >
+    <tr>
+      <th
+        className="expertiseCompany"
+      >
+        EPAM Systems inc
+      </th>
+      <th
+        className="expertiseJob"
+      >
+        Mobile Software Testing Engineer  / QA
+      </th>
+    </tr>
+    <tr>
+      <th
+        className="expertiseDate"
+      >
+        2017-2018
+      </th>
+      <th
+        className="expertiseDescription"
+      >
+        Ecommerce mobile application (iOS, Android). Global specialist in energy management and automation, with global presence in over 100 countries. It provides integrated efficiency solutions, combining energy, automation and software.
+      </th>
+    </tr>
+  </table>
+  <table
+    className="expertiseContainer"
+  >
+    <tr>
+      <th
+        className="expertiseCompany"
+      >
+        EPAM Systems inc
+      </th>
+      <th
+        className="expertiseJob"
+      >
+        Software Testing Engineer
+      </th>
+    </tr>
+    <tr>
+      <th
+        className="expertiseDate"
+      >
+        2015-2016
+      </th>
+      <th
+        className="expertiseDescription"
+      >
+        Ecommerce mobile application (iOS, Android) online-fashion outlet, with operations across Spain, Italy, Brazil and Mexico.
+      </th>
+    </tr>
+  </table>
+  <table
+    className="expertiseContainer"
+  >
+    <tr>
+      <th
+        className="expertiseCompany"
+      >
+        EPAM Systems inc
+      </th>
+      <th
+        className="expertiseJob"
+      >
+        Software Testing Engineer
+      </th>
+    </tr>
+    <tr>
+      <th
+        className="expertiseDate"
+      >
+        2014-2015
+      </th>
+      <th
+        className="expertiseDescription"
+      >
+        SaaS based Supply Chain and Industry platform, provides a set of Internet services for the automotive and manufacturing industry, with global presents in over 70 countries.
+      </th>
+    </tr>
+  </table>
+</div>
+`;

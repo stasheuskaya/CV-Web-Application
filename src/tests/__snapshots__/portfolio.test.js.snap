@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio Page renders content 1`] = `
+Array [
+  <div
+    className="portfolioFilter"
+  >
+    <div
+      className="filterLinks highlight"
+      onClick={[Function]}
+    >
+      All /
+    </div>
+    <div
+      className="filterLinks"
+      onClick={[Function]}
+    >
+      UI /
+    </div>
+    <div
+      className="filterLinks"
+      onClick={[Function]}
+    >
+      Code
+    </div>
+  </div>,
+  <div
+    className="scrollPortfolio"
+  >
+    <div
+      className="portfolioItem"
+    >
+      <img
+        alt="userAvatar"
+        className="portfolioImage"
+        src="UI_one.png"
+      />
+      <div
+        className="portfolioDescription"
+      >
+        <h1
+          className="portfolioTextTitle"
+        >
+          ‘Front-end Development‘ technology bootcamp
+        </h1>
+        <h2>
+          ‘Front-end Development‘ EPAM UpSkill technology bootcamp, USA: IT Fundamentals; HTML and CSS; JavaScript Basics, Advanced, TypeScript, React, 
+        </h2>
+        <a
+          href="/inner"
+        >
+          View resource
+        </a>
+      </div>
+    </div>
+    <div
+      className="portfolioItem"
+    >
+      <img
+        alt="userAvatar"
+        className="portfolioImage"
+        src="UI_two.png"
+      />
+      <div
+        className="portfolioDescription"
+      >
+        <h1
+          className="portfolioTextTitle"
+        >
+          ‘Mobile testing’ training
+        </h1>
+        <h2>
+          ‘Mobile testing’ training, EPAM Systems inc, Belarus: iOS, Android, Windows mobile testing; Mobile specific testing; API testing (Charles); Crash Logs tracking (Xcode, Android SDK).
+        </h2>
+        <a
+          href="/inner"
+        >
+          View resource
+        </a>
+      </div>
+    </div>
+    <div
+      className="portfolioItem"
+    >
+      <img
+        alt="userAvatar"
+        className="portfolioImage"
+        src="UI_one.png"
+      />
+      <div
+        className="portfolioDescription"
+      >
+        <h1
+          className="portfolioTextTitle"
+        >
+          ‘Software Testing introduction‘ training
+        </h1>
+        <h2>
+          ‘Software Testing introduction‘ training, EPAM Systems inc, Belarus. Manual web application testing; Automation testing (Selenium), Performance testing (Tomcat).
+        </h2>
+        <a
+          href="/inner"
+        >
+          View resource
+        </a>
+      </div>
+    </div>
+    <div
+      className="portfolioItem"
+    >
+      <img
+        alt="userAvatar"
+        className="portfolioImage"
+        src="UI_two.png"
+      />
+      <div
+        className="portfolioDescription"
+      >
+        <h1
+          className="portfolioTextTitle"
+        >
+          Bachelor in Business Activities
+        </h1>
+        <h2>
+           ’Institute of Entrepreneurial Activity’, Belarus.
+        </h2>
+        <a
+          href="/inner"
+        >
+          View resource
+        </a>
+      </div>
+    </div>
+  </div>,
+]
+`;

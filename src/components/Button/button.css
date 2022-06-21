@@ -1,0 +1,108 @@
+button {
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+    background: var(--main-text-and-bg-color-oxford-blue);
+    color: var(--main-text-color-white);
+    font-size: 16px;
+  }
+
+  .startButton {
+    color: var(--main-text-color-white);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .startButton:hover {
+    background: var(--green-color-highlight-shamrock);
+  }
+
+  .navBackButton {
+    display: block;
+    position: fixed;
+    width: 200px;
+    bottom: 30px;
+    left: 20px;
+    font-size: 14px;
+    line-height: 120%;
+  }
+  
+  .navBackButton.compact {
+    width: 40px;
+    left: 8px;
+  }
+  
+
+.icon {
+  margin-right: 10px;
+  display: inline;
+}
+
+.boxTitle {
+  margin-bottom: 40px;
+  color: var(--green-color-highlight-shamrock);
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 120%;
+}
+
+.backToTop button {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+}
+
+.menuButton {
+  position: absolute;
+  top: 20px;
+  left: 250px;
+}
+
+.menuButton.compact {
+  left: 54px;
+}
+
+.menuButton.hidden {
+  left: 0px;
+}
+
+.menuButton button {
+  padding: 0px;
+  width: 30px;
+  height: 30px; 
+  border-radius: 00% 20% 20% 00%;
+}
+
+.backToTop button {
+  bottom: 0;
+  right: 40px;
+  border-radius: 20% 20% 0% 0%;
+  margin-left: 4px;
+}
+
+.backToTop .icon {
+  padding-left: 2px;
+}
+
+.addSkillButton button {
+  background-color: var(--main-text-and-bg-color-oxford-blue);
+  margin-left: 15px;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.addSkillButton button:disabled {
+  color: var(--dark-grey-color-links-raven);
+  opacity: .7;
+}
+
+.addSkillButton button:hover:not(:disabled) {
+  background-color: var(--green-color-highlight-shamrock)
+}
